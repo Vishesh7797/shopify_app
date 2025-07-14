@@ -7,5 +7,5 @@ gemspec
 gem 'rails-controller-testing', group: :test
 
 group :rubocop do
-  gem 'rubocop-shopify', require: false
+  gem 'rubocop-shopify', '>= 2.0.0', require: false
 end
